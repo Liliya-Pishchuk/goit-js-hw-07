@@ -32,3 +32,5 @@ function makeGallery(array) {
     .join("");
 }
 galleryContainer.insertAdjacentHTML("beforeend", result);
+
+galleryContainer.addEventListener("click", modal);
